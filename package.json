@@ -5,7 +5,7 @@
     "onCommand:extension.generateImportStatement"
   ],
   "author": {
-    "name": "Mathias Gesbert"
+    "name": "Aditya Baradwaj"
   },
   "categories": [
     "Programming Languages",
@@ -50,7 +50,7 @@
     }
   },
   "contributors": [
-    "Nicolas Faurie"
+    "Aditya Baradwaj"
   ],
   "dependencies": {
     "clipboardy": "^1.2.3"
@@ -63,7 +63,7 @@
     "typescript": "^2.6.1",
     "vscode": "^1.1.6"
   },
-  "displayName": "Python Path",
+  "displayName": "Copy Python Path (Remote)",
   "engines": {
     "vscode": "^1.22.0"
   },
@@ -79,11 +79,11 @@
     "generator"
   ],
   "main": "./extension",
-  "name": "python-path",
-  "publisher": "mgesbert",
+  "name": "copy-python-path-remote",
+  "publisher": "adityabaradwaj",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mgesbert/vscode-python-path.git"
+    "url": "https://github.com/alameda-research/vscode-python-path"
   },
   "scripts": {
     "postinstall": "node ./node_modules/vscode/bin/install",
